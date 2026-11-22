@@ -7,7 +7,17 @@ authors = [
     { name = "yonggyo1125", email = "yonggyo1981@gmail.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "fastapi>=0.165.0",
+    "httpx>=0.28.1",
+    "langchain>=1.5.2",
+    "langchain-core>=1.8.4",
+    "langchain-openai>=1.8.5",
+    "langgraph>=1.2.24",
+    "pydantic>=2.14.4",
+    "python-dotenv>=1.2.4",
+    "uvicorn>=0.54.0",
+]
 
 [project.scripts]
 rag-project-ax1 = "rag_project_ax1:main"
