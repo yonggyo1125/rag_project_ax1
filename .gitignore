@@ -1,0 +1,26 @@
+# 환경변수 및 비밀키
+.env
+.env.*
+!.env.example
+
+# Python 및 uv 가상환경/캐시
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.venv/
+.uv/
+
+# 테스트 및 린트/타입체크 캐시
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# 로그 및 OS/에디터 파일
+*.log
+logs/
+.DS_Store
+.vscode/
+.idea/
